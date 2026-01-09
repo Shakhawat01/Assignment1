@@ -10,11 +10,13 @@
 }
 
 nav{
-    padding: 0 120px;
-    background-color: #FFFFFF;
+    width: 71%;
+    max-width: 1600px;
     display: flex;
+    margin: 0 auto;
     justify-content: space-between;
     align-items: center;
+    background-color: #FFFFFF;
 }
 .logo-container .menu .menu-item{
     display: flex;
@@ -51,8 +53,11 @@ nav{
     
 }
 .banner-box{
+    width: 71%;
+    max-width: 1600px;
     display: flex;
-    justify-content: center;
+    margin: 0 auto;
+    justify-content: space-between;
     align-items: center;
 }
 .banner-container .banner-title{
@@ -92,8 +97,12 @@ nav{
     line-height: 28px;
 }
 .section-btn{
+    width: 71%;
+    max-width: 1600px;
     display: flex;
+    margin: 0 auto;
     justify-content: center;
+    align-items: center;
     gap: 10px;
 }
 .button{
@@ -130,4 +139,64 @@ nav{
 .button-t:hover{
     background-color: #30B868;
     border: none;
+}
+
+.note-heading{
+    width: 71%;
+    max-width: 1600px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 44px;
+
+}
+.note-heading .heading-title{
+    padding-top: 30px;
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.note-heading .heading-text{
+    font-size: 16px;
+    color: #627382;
+    line-height: 20px;
+}
+
+.card-container{
+    width: 71%;
+    max-width: 1600px;
+    display: flex;
+    margin: 0 auto;
+    gap: 24px;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: center;
+}
+.card-container .card-item{
+    max-width: 322px;
+    height: 300px;
+    border-radius: 8px;
+    padding: 24px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 8px 0 #00000020;
+    
+}
+.card-item .card-img{
+    width: 60px;
+    height: 60px;
+    border-radius: 1000px;
+    background-color: #F95555;
+    padding: 16px;
+    margin: 16px 0px;
+}
+.card-item .card-title{
+    font-size: 24px;
+    font-weight: 600;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.card-item .card-text{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
 }
