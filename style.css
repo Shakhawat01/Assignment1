@@ -3,12 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 .inter{
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
 }
-
 nav{
     width: 71%;
     max-width: 1600px;
@@ -66,7 +64,6 @@ nav{
     gap: 16px;
     text-align: center;
 }
-
 .banner-title .banner-dot{
     display: inline-flex;
     align-items: center;
@@ -147,7 +144,6 @@ nav{
     margin: 0 auto;
     text-align: center;
     margin-bottom: 44px;
-
 }
 .note-heading .heading-title{
     padding-top: 30px;
@@ -200,13 +196,11 @@ nav{
     line-height: 20px;
     color: #627382;
 }
-
  #brain-section .brain-container{
     width: 71%;
     max-width: 1600px;
     display: flex;
     margin:0 auto;
-    /* justify-content: space-between; */
     gap: 60px;
     align-items: center;
     padding-top: 120px;
@@ -214,12 +208,10 @@ nav{
  .brain-container .brain-info{
     margin: 101.5px 0px;
  }
-
  .brain-info h2{
     font-size: 48px;
     font-weight: bold;
     color: #001931;
-
  }
  .brain-info .brain-text{
     font-size: 16px;
@@ -227,13 +219,11 @@ nav{
     color: #627382;
     padding: 16px 0px;
  }
-
 .info-list {
     display: flex;
     flex-direction: column;
     gap: 16px;
 }
-
 .info-list p {
     display: flex;
     align-items: center;
@@ -241,22 +231,62 @@ nav{
     font-size: 16px;
     color: #001931;
 }
-
 .info-list span {
     display: flex;
     align-items: center;
     margin-right: 6px;
 }
-
-
-
-
-
-
- 
-    /* width: 71%;
+#footer-container{
+    background-color: #001220; /* Deep blue background */
+    padding: 60px 0 20px 0;
+    color: #FFFFFF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.footer-nav {
+    width: 71%;
     max-width: 1600px;
-    display: flex;
     margin: 0 auto;
+    display: flex;
     justify-content: space-between;
-    align-items: center; */
+    align-items: center;
+    margin-bottom: 80px;
+}
+.footer-logo img {
+    height: 60px;
+}
+.footer-links {
+    text-align: right;
+}
+.social-text span {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    display: block;
+    margin-bottom: 10px;
+}
+.link a {
+    background-color:#FFFFFF ;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    color: black;
+    margin-left: 15px;
+}
+.link a:hover {
+    background-color: #30B868;
+}
+hr {
+    width: 71%;
+    max-width: 1600px;
+    margin: 0px auto;
+    border: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.1); 
+}
+.footer-copy {
+    width: 71%;
+    max-width: 1600px;
+    margin: 20px auto 0px;
+    text-align: center;
+    font-size: 12px;
+    color: #FFFFFF;
+}
