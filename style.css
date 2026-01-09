@@ -27,7 +27,7 @@ nav{
     text-decoration: none;
     color: #000000;
 }
-.logo-container .btn{
+.btn{
     padding: 12.5px 16px;
     border: none;
     border-radius: 4px;
@@ -37,4 +37,97 @@ nav{
 }
 .logo-container .btn:hover{
     background-color: rgb(53, 73, 66, 0.75);
+}
+#banner{
+    min-height: 674px;
+    background:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(./assets/hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.banner-container{
+    padding-top: 115px;
+    
+}
+.banner-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-container .banner-title{
+    width: 1360px;
+    height: 296px;
+    gap: 16px;
+    text-align: center;
+}
+
+.banner-title .banner-dot{
+    display: inline-flex;
+    align-items: center;
+    background-color: #FFFFFF;
+    color: #30B868;
+    gap: 6px;
+    padding: 8px 12px 8px 12px;
+    border-radius: 1000px;
+    font-weight: 500;
+} 
+.banner-dot .dot{
+    width:16px;
+    height:16px;
+    border-radius:8px;
+    background:
+    radial-gradient(circle,
+      #30B868 0 3px,
+      #30b86983 3px 6px,
+      #30b86939 6px 100%
+    );
+}
+.banner-heading h1{
+    font-size: 72px;
+    font-weight: 84px;
+}
+.banner-text span{
+    color: #FFFFFF;
+    line-height: 28px;
+}
+.section-btn{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.button{
+    font-size: 16px;
+    font-weight: 600;
+    padding: 16.5px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #30B868;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.button span{
+    padding: 10px;
+}
+.button:hover{
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+}
+.button-t{
+    font-size: 16px;
+    font-weight: 600;
+    padding: 16.5px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: transparent;
+    color: #FFFFFF;
+    cursor: pointer;
+    border: 1px solid #FFFFFF;
+}
+.button-t span{
+    padding: 5px;
+}
+.button-t:hover{
+    background-color: #30B868;
+    border: none;
 }
