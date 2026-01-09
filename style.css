@@ -27,6 +27,9 @@ nav{
     text-decoration: none;
     color: #000000;
 }
+.logo{
+    cursor: pointer;
+}
 .btn{
     padding: 12.5px 16px;
     border: none;
@@ -35,7 +38,7 @@ nav{
     color: #FFFFFF;
     cursor: pointer;
 }
-.logo-container .btn:hover{
+.btn:hover{
     background-color: rgb(53, 73, 66, 0.75);
 }
 #banner{
@@ -203,7 +206,7 @@ nav{
     margin:0 auto;
     gap: 60px;
     align-items: center;
-    padding-top: 120px;
+    padding: 120px 0px;
  }
  .brain-container .brain-info{
     margin: 101.5px 0px;
@@ -236,6 +239,57 @@ nav{
     align-items: center;
     margin-right: 6px;
 }
+
+#challenge .challenge-container{
+    width: 71%;
+    max-width: 1600px;
+    margin: 0 auto 120px;
+    background-color: #F7F6F2;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    text-align: center;
+}
+.challenge-container .challenge-heading{
+    width: 71%;
+    max-width: 1600px;
+    margin: 80px auto 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.challenge-heading h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: #001931;
+}
+.challenge-heading p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #627382;
+}
+.c-button{
+    font-size: 16px;
+    font-weight: 600;
+    padding: 16.5px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #30B868;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.c-button span{
+    padding: 10px;
+}
+.c-button:hover{
+    background-color: rgb(53, 73, 66, 0.75);
+}
+.message p{
+    margin-top: 16px;
+    margin-bottom: 80px;
+}
+
 #footer-container{
     background-color: #001220; /* Deep blue background */
     padding: 60px 0 20px 0;
@@ -252,6 +306,7 @@ nav{
     margin-bottom: 80px;
 }
 .footer-logo img {
+    cursor: pointer;
     height: 60px;
 }
 .footer-links {
