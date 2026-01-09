@@ -179,7 +179,7 @@ nav{
     padding: 24px;
     background-color: #FFFFFF;
     box-shadow: 0px 0px 8px 0 #00000020;
-    
+    border-radius
 }
 .card-item .card-img{
     width: 60px;
@@ -200,3 +200,63 @@ nav{
     line-height: 20px;
     color: #627382;
 }
+
+ #brain-section .brain-container{
+    width: 71%;
+    max-width: 1600px;
+    display: flex;
+    margin:0 auto;
+    /* justify-content: space-between; */
+    gap: 60px;
+    align-items: center;
+    padding-top: 120px;
+ }
+ .brain-container .brain-info{
+    margin: 101.5px 0px;
+ }
+
+ .brain-info h2{
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+
+ }
+ .brain-info .brain-text{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    padding: 16px 0px;
+ }
+
+.info-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.info-list p {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    font-size: 16px;
+    color: #001931;
+}
+
+.info-list span {
+    display: flex;
+    align-items: center;
+    margin-right: 6px;
+}
+
+
+
+
+
+
+ 
+    /* width: 71%;
+    max-width: 1600px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center; */
