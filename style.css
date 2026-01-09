@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+nav{
+    padding: 0 120px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-container .menu .menu-item{
+    display: flex;
+    gap: 32px;
+}
+.logo-container .menu li{
+    list-style-type: none;
+}
+.logo-container .menu a{
+    text-decoration: none;
+    color: #000000;
+}
+.logo-container .btn{
+    padding: 12.5px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #30B868;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.logo-container .btn:hover{
+    background-color: rgb(53, 73, 66, 0.75);
+}
